@@ -11,16 +11,6 @@
 - title: Education
   type: time_table
   contents:
-    # - title: PhD
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1905
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
     - title: Bachelor of Science in Electrical Engineering
       institution: University of Illinois Urbana-Champaign, Urbana, US
       year: "2021.09 - 2025.06"
@@ -28,48 +18,12 @@
     - title: Bachelor of Engineering in Electrical Engineering and Automation
       institution: Zhejiang University, Haining, China
       year: "2021.09 - 2025.06"
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: Optimized Convolutional Layer Implementation Using CUDA
-      institution: Course Project (Advisor: Prof. Volodymyr Kindratenko)
+      institution: Course Project (Advisor-- Prof. Volodymyr Kindratenko)
       year: "October 2024 - December 2024"
       description:
         - "Keywords: CUDA, Parallel programming, GPU acceleration, Convolutional neural networks (CNNs)"
@@ -78,7 +32,7 @@
         - "Applied advanced GPU programming techniques to optimize the implementation, including streams, GEMM kernels, and kernel fusion, to achieve a target inference time of ≤80ms for 10,000 images from the Fashion MNIST dataset."
 
     - title: RRAM-based Heterogeneous Processing for Multimodal Brain-Computer Interfaces
-      institution: The University of Hong Kong (Advisor: Dr. Zhengwu Liu)
+      institution: The University of Hong Kong (Advisor-- Dr. Zhengwu Liu)
       year: "May 2024 - July 2024"
       description:
         - "Keywords: RRAM, Multimodal brain-computer interface, EEG, Compute-in-memory, FDT"
@@ -87,7 +41,7 @@
         - "Achieved 2.83% higher accuracy using multimodal BCI with FDT than that without FDT and significantly outperformed the MI-alone and P300-alone results by 8.19% and 13.20%, respectively."
 
     - title: Raspberry Pi Based IoT System as a Private Chatbot
-      institution: Course Project (Advisor: Prof. Deming Chen)
+      institution: Course Project (Advisor-- Prof. Deming Chen)
       year: "March 2024 - May 2024"
       description:
         - "Keywords: IoT System, Raspberry Pi, Machine Learning, Deep Learning"
@@ -97,7 +51,7 @@
         - "Integrated a server-client architecture using Google Cloud for accelerated processing and implemented speech recognition and TTS for user interaction."
 
     - title: Multiplayer Action Game on FPGA: Crazy Arcade
-      institution: Course Project (Advisor: Prof. Zuofu Cheng)
+      institution: Course Project (Advisor-- Prof. Zuofu Cheng)
       year: "March 2024 - May 2024"
       description:
         - "Keywords: SystemVerilog, FPGAs, System-on-a-chip, MicroBlaze CPU, VGA"
@@ -106,7 +60,7 @@
         - "Incorporated background music by PWM for sound generation, featuring distinct tracks for different game stages."
 
     - title: Cheat-Machine for Game 2048
-      institution: Course Project (Advisor: Prof. Thomas Moon)
+      institution: Course Project (Advisor-- Prof. Thomas Moon)
       year: "March 2024 - May 2024"
       description:
         - "Keywords: Embedded DSP, Real-time Signal Processing, Image Processing, Android Studio"
@@ -116,7 +70,7 @@
         - "Achieved high accuracy in digit recognition (100% when properly aligned) and consistent AI performance, reaching 1024 tile in 75% of simulations."
 
     - title: Simulating Neuron Circuit Design
-      institution: Course Project (Advisor: Prof. Jont Allen)
+      institution: Course Project (Advisor-- Prof. Jont Allen)
       year: "December 2023"
       description:
         - "Keywords: Neuron Simulation, Hodgkin-Huxley Model, Circuit Simulation"
@@ -125,7 +79,7 @@
         - "Optimized circuit performance by adjusting component parameters to achieve clear action potential observations."
 
     - title: Hook&Hair Structure 3D-Printing based on Path Control and 4D Printing Experiment Exploration
-      institution: Zhejiang University (Advisor: Prof. Guanyun Wang)
+      institution: Zhejiang University (Advisor-- Prof. Guanyun Wang)
       year: "June 2023 - August 2023"
       description:
         - "Keywords: 3D printing, Grasshopper, Rhino, FDM, Path-planning, 4D printing"
@@ -134,7 +88,7 @@
         - "Conducted experiments in 4D printing, modeling deformable planar objects in Fusion360 that transform into stereoscopic shapes when heated."
 
     - title: Over-the-Air-Computation Based Federated Learning Model Establishment & Simulation
-      institution: Zhejiang University (Advisor: Prof. Howard Yang)
+      institution: Zhejiang University (Advisor-- Prof. Howard Yang)
       year: "April 2022 - April 2023"
       description:
         - "Keywords: Edge Computing, Federated Learning, OFDM, Over-the-air Computing, Simulink, Machine Learning, Neural Networks"
