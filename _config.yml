@@ -8,8 +8,8 @@ middle_name:
 last_name: Chen
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >
+  Hello, I'm Yanghonghui Chen, but you can call me Ryon. I'm a passionate and curious neuroscience & engineering enthusiast with a deep interest in brain-computer interfaces (BCIs), neural computation, and artificial intelligence. Currently pursuing my studies with a focus on bridging the gap between neuroscience and cutting-edge technology, I aim to contribute to the development of innovative neural prosthetics and rehabilitation systems. Throughout my academic journey, I’ve had the opportunity to engage in diverse research projects, from exploring neuromorphic chips to designing analog over-the-air communication systems for federated learning. I am particularly excited about applying deep learning techniques to enhance BCIs and their potential to improve lives, especially in motor function restoration and mental health treatment. Through my work, I strive to bring the future of brain-computer interaction closer to reality, with the vision of creating accessible, effective, and scalable solutions for everyone.
 footer_text: >
   # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
