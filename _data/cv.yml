@@ -23,11 +23,11 @@
     #         - Sub-description 2.
     - title: Bachelor of Science in Electrical Engineering
       institution: University of Illinois Urbana-Champaign, Urbana, US
-      year: 2021.09 - 2025.06
+      year: "2021.09 - 2025.06"
 
     - title: Bachelor of Engineering in Electrical Engineering and Automation
-      institution: Zhejiang University, Haining, China 
-      year: 2021.09 - 2025.06
+      institution: Zhejiang University, Haining, China
+      year: "2021.09 - 2025.06"
       # description:
       #   - Description 1.
       #   - Description 2.
@@ -70,7 +70,7 @@
   contents:
     - title: Optimized Convolutional Layer Implementation Using CUDA
       institution: Course Project (Advisor: Prof. Volodymyr Kindratenko)
-      year: October 2024 - December 2024
+      year: "October 2024 - December 2024"
       description:
         - "Keywords: CUDA, Parallel programming, GPU acceleration, Convolutional neural networks (CNNs)"
         - "Designed and implemented the forward pass of convolutional layers for a modified LeNet-5 architecture using CUDA, optimizing performance for deep learning tasks such as image classification and object detection."
@@ -79,7 +79,7 @@
 
     - title: RRAM-based Heterogeneous Processing for Multimodal Brain-Computer Interfaces
       institution: The University of Hong Kong (Advisor: Dr. Zhengwu Liu)
-      year: May 2024 - July 2024
+      year: "May 2024 - July 2024"
       description:
         - "Keywords: RRAM, Multimodal brain-computer interface, EEG, Compute-in-memory, FDT"
         - "Simulated representative heterogeneous processing paradigm of P300 signal recognition in Python by using resistive random-access memory (RRAM) with and without fixed parameter disturbance training (FDT)."
@@ -88,7 +88,7 @@
 
     - title: Raspberry Pi Based IoT System as a Private Chatbot
       institution: Course Project (Advisor: Prof. Deming Chen)
-      year: March 2024 - May 2024
+      year: "March 2024 - May 2024"
       description:
         - "Keywords: IoT System, Raspberry Pi, Machine Learning, Deep Learning"
         - "Developed an IoT system using Raspberry Pi 4 as a private chatbot with face detection and speaker recognition to guarantee privacy and personal conversations as well as interactions."
@@ -98,7 +98,7 @@
 
     - title: Multiplayer Action Game on FPGA: Crazy Arcade
       institution: Course Project (Advisor: Prof. Zuofu Cheng)
-      year: March 2024 - May 2024
+      year: "March 2024 - May 2024"
       description:
         - "Keywords: SystemVerilog, FPGAs, System-on-a-chip, MicroBlaze CPU, VGA"
         - "Used FPGA for real-time operations, integrating MicroBlaze CPU for game logic and keyboard input processing."
@@ -107,7 +107,7 @@
 
     - title: Cheat-Machine for Game 2048
       institution: Course Project (Advisor: Prof. Thomas Moon)
-      year: March 2024 - May 2024
+      year: "March 2024 - May 2024"
       description:
         - "Keywords: Embedded DSP, Real-time Signal Processing, Image Processing, Android Studio"
         - "Developed an app in Android Studio to analyze a live game of 2048, recognizing board digits using image processing."
@@ -117,7 +117,7 @@
 
     - title: Simulating Neuron Circuit Design
       institution: Course Project (Advisor: Prof. Jont Allen)
-      year: December 2023
+      year: "December 2023"
       description:
         - "Keywords: Neuron Simulation, Hodgkin-Huxley Model, Circuit Simulation"
         - "Designed an electronic circuit based on the Hodgkin-Huxley model to simulate neuron action potentials."
@@ -126,7 +126,7 @@
 
     - title: Hook&Hair Structure 3D-Printing based on Path Control and 4D Printing Experiment Exploration
       institution: Zhejiang University (Advisor: Prof. Guanyun Wang)
-      year: June 2023 - August 2023
+      year: "June 2023 - August 2023"
       description:
         - "Keywords: 3D printing, Grasshopper, Rhino, FDM, Path-planning, 4D printing"
         - "Developed 3D printing techniques for complex hook and hair structures using Rhino and Grasshopper for path planning, generating G-codes for customized printing paths instead of traditional FDM (Fused Deposition Modeling) methods."
@@ -135,7 +135,7 @@
 
     - title: Over-the-Air-Computation Based Federated Learning Model Establishment & Simulation
       institution: Zhejiang University (Advisor: Prof. Howard Yang)
-      year: April 2022 - April 2023
+      year: "April 2022 - April 2023"
       description:
         - "Keywords: Edge Computing, Federated Learning, OFDM, Over-the-air Computing, Simulink, Machine Learning, Neural Networks"
         - "Explored an innovative approach to utilizing private data from distributed databases to train shared models, ensuring user privacy while making use of the data."
@@ -146,18 +146,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023 Fall
+    - year: "2023 Fall"
       items:
         - "Dean's List (Top 20%) - UIUC"
-    - year: 2021-2022, 2022-2023, 2023-2024 Academic Years
+    - year: "2021-2022, 2022-2023, 2023-2024 Academic Years"
       items:
         - "Scholarship from Zhejiang University (Top 8%)"
         - "Academic Excellence Award - Zhejiang University"
-    - year: 2022 Summer
+    - year: "2022 Summer"
       items:
         - "Recognition for Outstanding Performance, Undergraduate Summer Research Program"
         - "Recognition for Academic Poster Exhibition, Undergraduate Summer Research Program"
-    - year: 2021-2022 Academic Year
+    - year: "2021-2022 Academic Year"
       items:
         - "Outstanding Performance in Social Work Award - Zhejiang University"
 
@@ -166,13 +166,13 @@
   contents:
     - title: Brain-computer Interface
       items:
-        - Signal Processing and Analysis
-        - Neural Network Applications
-        - Real-time BCI Systems
+        - "Signal Processing and Analysis"
+        - "Neural Network Applications"
+        - "Real-time BCI Systems"
 
 - title: Other Interests
   type: list
   contents:
-    - Basketball
-    - Skiing
-    - Hip-hop
+    - "Basketball"
+    - "Skiing"
+    - "Hip-hop"
