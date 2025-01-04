@@ -50,7 +50,7 @@
         - "Built a custom residual neural network with Keras for speaker recognition, achieving 96% accuracy."
         - "Integrated a server-client architecture using Google Cloud for accelerated processing and implemented speech recognition and TTS for user interaction."
 
-    - title: Multiplayer Action Game on FPGA: Crazy Arcade
+    - title: Multiplayer Action Game on FPGA-- Crazy Arcade
       institution: Course Project (Advisor-- Prof. Zuofu Cheng)
       year: "March 2024 - May 2024"
       description:
