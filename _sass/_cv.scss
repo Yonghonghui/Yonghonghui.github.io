@@ -222,22 +222,22 @@ ul.timeline li::before {
 // CV 时间线样式
 .cv-timeline {
   position: relative;
-  margin-left: 2rem;  // 增加左边距
+  margin-left: 2rem;
   
   .cv-item {
     position: relative;
-    margin-bottom: 2.5rem;  // 增加项目间距
-    padding-top: 0.5rem;    // 增加顶部内边距
-    padding-left: 150px;    // 为时间戳留出空间
+    margin-bottom: 2.5rem;
+    padding-top: 0.5rem;
+    padding-left: 150px;
     
     .cv-year {
       position: absolute;
-      left: -150px;         // 将时间向左移动
-      width: 120px;         // 固定时间宽度
-      text-align: right;    // 时间右对齐
+      left: -150px;
+      width: 120px;
+      text-align: right;
       color: var(--global-theme-color);
       font-weight: bold;
-      top: 0.5rem;          // 对齐顶部
+      top: 0.5rem;
     }
     
     .cv-title {
@@ -251,6 +251,11 @@ ul.timeline li::before {
       color: var(--global-text-color-light);
       font-style: italic;
       margin-bottom: 0.5rem;
+      
+      i {
+        margin-right: 0.5rem;
+        color: var(--global-theme-color);
+      }
     }
 
     .cv-keywords {
@@ -271,11 +276,13 @@ ul.timeline li::before {
     .cv-description {
       list-style-type: none;
       padding-left: 0;
+      margin-bottom: 1rem;
       
       li {
         position: relative;
         padding-left: 1.5rem;
         margin-bottom: 0.5rem;
+        line-height: 1.5;
         
         &::before {
           content: '•';

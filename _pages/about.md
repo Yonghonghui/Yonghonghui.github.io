@@ -14,7 +14,7 @@ profile:
     <p>📧 cyhh1443560270@gmail.com</p>
 
 news: false  # 是否包含新闻部分
-latest_posts: false  # 是否显示最新博文
+latest_posts: false  # 设置为 false 来移除最新博文部分
 selected_papers: false # 是否显示选定的论文
 social: true  # 是否显示社交媒体链接
 ---
