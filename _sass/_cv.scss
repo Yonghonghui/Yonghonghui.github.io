@@ -240,6 +240,7 @@ ul.timeline li::before {
     
     .cv-title {
       margin-left: 1rem;    // 标题左边距
+      margin-top: 0.5rem;   // 新增：向下移动标题
       margin-bottom: 0.5rem;
       font-size: 1.1rem;
       font-weight: bold;
