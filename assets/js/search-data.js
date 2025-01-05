@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A collection of my cool projects. ✨",
+          description: "A showcase of my research projects and technical work. 🔬",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -400,51 +400,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-advanced-3d-amp-4d-printing",
+          title: 'Advanced 3D &amp;amp; 4D Printing',
+          description: "Developed path-controlled 3D printing techniques for hook and hair structures with 4D printing exploration",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/3d_printing/";
+            },},{id: "projects-cuda-optimized-cnn",
+          title: 'CUDA Optimized CNN',
+          description: "Implemented and optimized convolutional neural networks using CUDA for high-performance computing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/cuda_conv/";
+            },},{id: "projects-over-the-air-federated-learning",
+          title: 'Over-the-Air Federated Learning',
+          description: "Developed an innovative over-the-air computation based federated learning system",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/federated_learning/";
+            },},{id: "projects-fpga-multiplayer-game",
+          title: 'FPGA Multiplayer Game',
+          description: "Implemented a multiplayer action game &#39;Crazy Arcade&#39; on FPGA using SystemVerilog",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/fpga_game/";
+            },},{id: "projects-2048-game-assistant",
+          title: '2048 Game Assistant',
+          description: "Developed an Android app that analyzes live 2048 game state and suggests optimal moves",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/game_2048_assistant/";
+            },},{id: "projects-neuron-circuit-simulation",
+          title: 'Neuron Circuit Simulation',
+          description: "Designed and simulated electronic circuits based on the Hodgkin-Huxley neuron model",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/neuron_circuit/";
+            },},{id: "projects-iot-private-chatbot",
+          title: 'IoT Private Chatbot',
+          description: "Developed a Raspberry Pi based IoT system as a private chatbot with face and speaker recognition",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/raspberry_pi_chatbot/";
+            },},{id: "projects-rram-based-multimodal-bci",
+          title: 'RRAM-based Multimodal BCI',
+          description: "Developed heterogeneous processing system for multimodal brain-computer interfaces using RRAM technology",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/rram_bci/";
             },},{
         id: 'social-email',
         title: 'email',
