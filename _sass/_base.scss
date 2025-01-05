@@ -208,22 +208,31 @@ ul.task-list input[type="checkbox"] {
 
   .profile-img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  width: 35%;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
+  width: 35%;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
 
     .address {
       p {
