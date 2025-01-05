@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "Gallery",
-          description: "My photo collections",
+          description: "My photo collection",
           section: "Navigation",
           handler: () => {
             window.location.href = "/gallery/";
