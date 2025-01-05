@@ -10,13 +10,13 @@ profile:
   image_circular: false   # 是否使用圆形照片
   more_info: >
     <p>🎓 UIUC & ZJU</p>
-    <p>📍 Urbana, IL</p>
-    <p>📧 your.email@example.com</p>
+    <p>📍 Urbana, IL & Haining, ZheJiang</p>
+    <p>📧 cyhh1443560270@gmail.com</p>
 
 news: false  # 是否包含新闻部分
 latest_posts: false  # 是否显示最新博文
 selected_papers: false # 是否显示选定的论文
-social: true  # 是否显示社交媒体链接
+social: false  # 是否显示社交媒体链接
 ---
 
 # Welcome! 👋
