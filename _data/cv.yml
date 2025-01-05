@@ -25,7 +25,7 @@
   type: time_table
   contents:
     - title: Optimized Convolutional Layer Implementation Using CUDA
-      institution: Course Project (Advisor: Prof. Volodymyr Kindratenko)
+      institution: Course Project (Advisor-- Prof. Volodymyr Kindratenko)
       year: October 2024 - December 2024
       keywords: CUDA, Parallel programming, GPU acceleration, Convolutional neural networks (CNNs)
       description:
@@ -43,7 +43,7 @@
         - "Achieved 2.83% higher accuracy using multimodal BCI with FDT than that without FDT and significantly outperformed the MI-alone and P300-alone results by 8.19% and 13.20%, respectively."
 
     - title: Raspberry Pi Based IoT System as a Private Chatbot
-      institution: Course Project (Advisor: Prof. Deming Chen)
+      institution: Course Project (Advisor-- Prof. Deming Chen)
       year: March 2024 - May 2024
       keywords: IoT System, Raspberry Pi, Machine Learning, Deep Learning
       description:
@@ -53,7 +53,7 @@
         - "Integrated a server-client architecture using Google Cloud for accelerated processing and implemented speech recognition and TTS for user interaction."
 
     - title: Multiplayer Action Game on FPGA-- Crazy Arcade
-      institution: Course Project (Advisor: Prof. Zuofu Cheng)
+      institution: Course Project (Advisor-- Prof. Zuofu Cheng)
       year: March 2024 - May 2024
       keywords: SystemVerilog, FPGAs, System-on-a-chip, MicroBlaze CPU, VGA
       description:
@@ -62,7 +62,7 @@
         - "Incorporated background music by PWM for sound generation, featuring distinct tracks for different game stages."
 
     - title: Cheat-Machine for Game 2048
-      institution: Course Project (Advisor: Prof. Thomas Moon)
+      institution: Course Project (Advisor-- Prof. Thomas Moon)
       year: March 2024 - May 2024
       keywords: Embedded DSP, Real-time Signal Processing, Image Processing, Android Studio
       description:
@@ -72,7 +72,7 @@
         - "Achieved high accuracy in digit recognition (100% when properly aligned) and consistent AI performance, reaching 1024 tile in 75% of simulations."
 
     - title: Simulating Neuron Circuit Design
-      institution: Course Project (Advisor: Prof. Jont Allen)
+      institution: Course Project (Advisor-- Prof. Jont Allen)
       year: December 2023
       keywords: Neuron Simulation, Hodgkin-Huxley Model, Circuit Simulation
       description:
@@ -81,7 +81,7 @@
         - "Optimized circuit performance by adjusting component parameters to achieve clear action potential observations."
 
     - title: Hook&Hair Structure 3D-Printing based on Path Control and 4D Printing Experiment Exploration
-      institution: Zhejiang University (Advisor: Prof. Guanyun Wang)
+      institution: Zhejiang University (Advisor-- Prof. Guanyun Wang)
       year: June 2023 - August 2023
       keywords: 3D printing, Grasshopper, Rhino, FDM, Path-planning, 4D printing
       description:
@@ -90,7 +90,7 @@
         - "Conducted experiments in 4D printing, modeling deformable planar objects in Fusion360 that transform into stereoscopic shapes when heated."
 
     - title: Over-the-Air-Computation Based Federated Learning Model Establishment & Simulation
-      institution: Zhejiang University (Advisor: Prof. Howard Yang)
+      institution: Zhejiang University (Advisor-- Prof. Howard Yang)
       year: April 2022 - April 2023
       keywords: Edge Computing, Federated Learning, OFDM, Over-the-air Computing, Simulink, Machine Learning, Neural Networks
       description:
