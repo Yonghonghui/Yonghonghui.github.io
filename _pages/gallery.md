@@ -21,6 +21,7 @@ nav_order: 6
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  aspect-ratio: 4/3;
 }
 
 .gallery-item:hover {
@@ -29,8 +30,9 @@ nav_order: 6
 
 .gallery-item img {
   width: 100%;
-  height: 250px;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -45,6 +47,11 @@ nav_order: 6
   margin: 0;
   font-size: 0.9em;
   text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
 }
 </style>
 
