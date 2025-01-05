@@ -2,7 +2,7 @@
 layout: page
 title: CUDA Optimized CNN
 description: Implemented and optimized convolutional neural networks using CUDA for high-performance computing
-img: assets/img/projects/cuda.jpg
+# img: assets/img/projects/cuda.jpg
 importance: 1
 category: Hardware & Systems
 ---
