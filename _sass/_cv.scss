@@ -218,3 +218,88 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+// CV 时间线样式
+.cv-timeline {
+  position: relative;
+  margin-left: 2rem;  // 增加左边距
+  
+  .cv-item {
+    position: relative;
+    margin-bottom: 2.5rem;  // 增加项目间距
+    padding-top: 0.5rem;    // 增加顶部内边距
+    
+    .cv-year {
+      position: absolute;
+      left: -150px;         // 将时间向左移动
+      width: 120px;         // 固定时间宽度
+      text-align: right;    // 时间右对齐
+      color: var(--global-theme-color);
+      font-weight: bold;
+    }
+    
+    .cv-title {
+      margin-left: 1rem;    // 标题左边距
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    
+    .cv-institution {
+      margin-left: 1rem;
+      color: var(--global-text-color-light);
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+
+    .cv-keywords {
+      margin-left: 1rem;
+      margin-bottom: 0.5rem;
+      color: var(--global-theme-color);
+      font-size: 0.9rem;
+    }
+    
+    .cv-description {
+      margin-left: 1rem;
+      list-style-type: none;
+      padding-left: 0;
+      
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        
+        &::before {
+          content: '•';
+          position: absolute;
+          left: 0;
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
+// 响应式设计
+@media (max-width: 768px) {
+  .cv-timeline {
+    margin-left: 0;
+    
+    .cv-item {
+      .cv-year {
+        position: relative;
+        left: 0;
+        width: auto;
+        text-align: left;
+        margin-bottom: 0.5rem;
+      }
+      
+      .cv-title,
+      .cv-institution,
+      .cv-keywords,
+      .cv-description {
+        margin-left: 0;
+      }
+    }
+  }
+}

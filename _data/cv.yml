@@ -2,7 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Yanghonghui Chen
+      value: Yanghonghui Chen (Ryon)
+    - name: Pronouns
+      value: He/Him/His
     - name: Date of Birth
       value: May 2003
     - name: Languages
@@ -23,75 +25,75 @@
   type: time_table
   contents:
     - title: Optimized Convolutional Layer Implementation Using CUDA
-      institution: Course Project (Advisor-- Prof. Volodymyr Kindratenko)
-      year: "October 2024 - December 2024"
+      institution: Course Project (Advisor: Prof. Volodymyr Kindratenko)
+      year: October 2024 - December 2024
+      keywords: CUDA, Parallel programming, GPU acceleration, Convolutional neural networks (CNNs)
       description:
-        - "Keywords: CUDA, Parallel programming, GPU acceleration, Convolutional neural networks (CNNs)"
         - "Designed and implemented the forward pass of convolutional layers for a modified LeNet-5 architecture using CUDA, optimizing performance for deep learning tasks such as image classification and object detection."
         - "Implemented a GPU-based forward convolution with a structured Prolog-Kernel-Epilog approach, ensuring memory management, convolution computation, and output transfer, while matching CPU implementation correctness and optimizing performance using Nsight profiling tools."
         - "Applied advanced GPU programming techniques to optimize the implementation, including streams, GEMM kernels, and kernel fusion, to achieve a target inference time of ≤80ms for 10,000 images from the Fashion MNIST dataset."
 
     - title: RRAM-based Heterogeneous Processing for Multimodal Brain-Computer Interfaces
-      institution: The University of Hong Kong (Advisor-- Dr. Zhengwu Liu)
-      year: "May 2024 - July 2024"
+      institution: The University of Hong Kong (Advisor: Dr. Zhengwu Liu)
+      year: May 2024 - July 2024
+      keywords: RRAM, Multimodal brain-computer interface, EEG, Compute-in-memory, FDT
       description:
-        - "Keywords: RRAM, Multimodal brain-computer interface, EEG, Compute-in-memory, FDT"
         - "Simulated representative heterogeneous processing paradigm of P300 signal recognition in Python by using resistive random-access memory (RRAM) with and without fixed parameter disturbance training (FDT)."
         - "Contributed to combining the BCIC IV IIa and the P300 RSVP datasets and designing an RRAM-based multimodal recognizer that integrates components of the pre-trained EEGNet, CSP (Common Spatial Pattern), and a modality-fused classifier to create the multimodal settings."
         - "Achieved 2.83% higher accuracy using multimodal BCI with FDT than that without FDT and significantly outperformed the MI-alone and P300-alone results by 8.19% and 13.20%, respectively."
 
     - title: Raspberry Pi Based IoT System as a Private Chatbot
-      institution: Course Project (Advisor-- Prof. Deming Chen)
-      year: "March 2024 - May 2024"
+      institution: Course Project (Advisor: Prof. Deming Chen)
+      year: March 2024 - May 2024
+      keywords: IoT System, Raspberry Pi, Machine Learning, Deep Learning
       description:
-        - "Keywords: IoT System, Raspberry Pi, Machine Learning, Deep Learning"
         - "Developed an IoT system using Raspberry Pi 4 as a private chatbot with face detection and speaker recognition to guarantee privacy and personal conversations as well as interactions."
         - "Implemented MTCNN with ResNet and dlib-based face recognition, achieving better performance with the latter; trained the system with one hundred face images for live recognition."
         - "Built a custom residual neural network with Keras for speaker recognition, achieving 96% accuracy."
         - "Integrated a server-client architecture using Google Cloud for accelerated processing and implemented speech recognition and TTS for user interaction."
 
     - title: Multiplayer Action Game on FPGA-- Crazy Arcade
-      institution: Course Project (Advisor-- Prof. Zuofu Cheng)
-      year: "March 2024 - May 2024"
+      institution: Course Project (Advisor: Prof. Zuofu Cheng)
+      year: March 2024 - May 2024
+      keywords: SystemVerilog, FPGAs, System-on-a-chip, MicroBlaze CPU, VGA
       description:
-        - "Keywords: SystemVerilog, FPGAs, System-on-a-chip, MicroBlaze CPU, VGA"
         - "Used FPGA for real-time operations, integrating MicroBlaze CPU for game logic and keyboard input processing."
         - "Developed various modules in SystemVerilog to manage player movements, bomb mechanics, life counts, and game states, interacting through a system bus."
         - "Incorporated background music by PWM for sound generation, featuring distinct tracks for different game stages."
 
     - title: Cheat-Machine for Game 2048
-      institution: Course Project (Advisor-- Prof. Thomas Moon)
-      year: "March 2024 - May 2024"
+      institution: Course Project (Advisor: Prof. Thomas Moon)
+      year: March 2024 - May 2024
+      keywords: Embedded DSP, Real-time Signal Processing, Image Processing, Android Studio
       description:
-        - "Keywords: Embedded DSP, Real-time Signal Processing, Image Processing, Android Studio"
         - "Developed an app in Android Studio to analyze a live game of 2048, recognizing board digits using image processing."
         - "Employed efficient template matching for multi-digit recognition, using grayscale conversion, Canny edge detection, and perspective transformation to preprocess images. Used python packages to evaluate the workflow of the application."
         - "Built an AI engine with an Expecti-max Search algorithm to recommend the optimal move, focusing on corner placement strategies."
         - "Achieved high accuracy in digit recognition (100% when properly aligned) and consistent AI performance, reaching 1024 tile in 75% of simulations."
 
     - title: Simulating Neuron Circuit Design
-      institution: Course Project (Advisor-- Prof. Jont Allen)
-      year: "December 2023"
+      institution: Course Project (Advisor: Prof. Jont Allen)
+      year: December 2023
+      keywords: Neuron Simulation, Hodgkin-Huxley Model, Circuit Simulation
       description:
-        - "Keywords: Neuron Simulation, Hodgkin-Huxley Model, Circuit Simulation"
         - "Designed an electronic circuit based on the Hodgkin-Huxley model to simulate neuron action potentials."
         - "Conducted electrical pulse stimulation to observe and analyze neuronal signaling pathways."
         - "Optimized circuit performance by adjusting component parameters to achieve clear action potential observations."
 
     - title: Hook&Hair Structure 3D-Printing based on Path Control and 4D Printing Experiment Exploration
-      institution: Zhejiang University (Advisor-- Prof. Guanyun Wang)
-      year: "June 2023 - August 2023"
+      institution: Zhejiang University (Advisor: Prof. Guanyun Wang)
+      year: June 2023 - August 2023
+      keywords: 3D printing, Grasshopper, Rhino, FDM, Path-planning, 4D printing
       description:
-        - "Keywords: 3D printing, Grasshopper, Rhino, FDM, Path-planning, 4D printing"
         - "Developed 3D printing techniques for complex hook and hair structures using Rhino and Grasshopper for path planning, generating G-codes for customized printing paths instead of traditional FDM (Fused Deposition Modeling) methods."
         - "Accomplished applications including hooked ball-mitten toys and hairy objects, requiring precise path control to avoid defects and achieve intricate designs."
         - "Conducted experiments in 4D printing, modeling deformable planar objects in Fusion360 that transform into stereoscopic shapes when heated."
 
     - title: Over-the-Air-Computation Based Federated Learning Model Establishment & Simulation
-      institution: Zhejiang University (Advisor-- Prof. Howard Yang)
-      year: "April 2022 - April 2023"
+      institution: Zhejiang University (Advisor: Prof. Howard Yang)
+      year: April 2022 - April 2023
+      keywords: Edge Computing, Federated Learning, OFDM, Over-the-air Computing, Simulink, Machine Learning, Neural Networks
       description:
-        - "Keywords: Edge Computing, Federated Learning, OFDM, Over-the-air Computing, Simulink, Machine Learning, Neural Networks"
         - "Explored an innovative approach to utilizing private data from distributed databases to train shared models, ensuring user privacy while making use of the data."
         - "Set up an over-the-air-computation-based communication model in Simulink which could transmit and receive massive data gradients between federated users effectively."
         - "Combined Machine Learning models like Linear Regression and Deep Learning models like neural networks in MATLAB codes with communication models in Simulink to implement effective edge-computing models."
