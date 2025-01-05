@@ -34,7 +34,7 @@
         - "Applied advanced GPU programming techniques to optimize the implementation, including streams, GEMM kernels, and kernel fusion, to achieve a target inference time of ≤80ms for 10,000 images from the Fashion MNIST dataset."
 
     - title: RRAM-based Heterogeneous Processing for Multimodal Brain-Computer Interfaces
-      institution: The University of Hong Kong (Advisor: Dr. Zhengwu Liu)
+      institution: The University of Hong Kong (Advisor-- Dr. Zhengwu Liu)
       year: May 2024 - July 2024
       keywords: RRAM, Multimodal brain-computer interface, EEG, Compute-in-memory, FDT
       description:
