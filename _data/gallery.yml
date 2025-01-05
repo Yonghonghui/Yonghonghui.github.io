@@ -1,8 +1,6 @@
-- thumb: /assets/img/gallery/my1.jpg
-  full: /assets/img/gallery/my1.jpg
+- full: /assets/img/gallery/my1.jpg
   caption: Taken at Golden Gate Bridge, San Francisco 🌉
 
-- thumb: /assets/img/gallery/Xinfinity.jpg
-  full: /assets/img/gallery/Xinfinity.jpg
-  caption: Taken at Zijinggang Campus, Zhejiang Univeristy on the eve of the New Year 2025.
+- full: /assets/img/gallery/Xinfinity.jpg
+  caption: Taken at Zijinggang Campus, Zhejiang Univeristy on the eve of the New Year 2025. 🎆
 # 可以继续添加更多照片 
