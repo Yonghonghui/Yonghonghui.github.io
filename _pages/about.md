@@ -16,7 +16,7 @@ profile:
 news: false  # 是否包含新闻部分
 latest_posts: false  # 是否显示最新博文
 selected_papers: false # 是否显示选定的论文
-social: false  # 是否显示社交媒体链接
+social: true  # 是否显示社交媒体链接
 ---
 
 # Welcome! 👋
