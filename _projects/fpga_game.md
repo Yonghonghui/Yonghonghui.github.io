@@ -12,30 +12,16 @@ github: https://github.com/Yonghonghui/ECE-385---Digital-Systems-Laboratory
 
 Developed a complete multiplayer action game "Crazy Arcade" on FPGA, integrating MicroBlaze CPU for game logic and keyboard input processing, with real-time graphics and sound capabilities.
 
-<!-- ## Links
+## Links
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   <div class="repo p-2">
     <h5 class="font-weight-bold text">GitHub Repository</h5>
-    <a href="https://github.com/YourUsername/fpga-game" target="_blank">
+    <a href="https://github.com/Yonghonghui/ECE-385---Digital-Systems-Laboratory" target="_blank">
       <i class="fab fa-github"></i> FPGA Crazy Arcade Game
     </a>
   </div>
-  
-  <div class="repo p-2">
-    <h5 class="font-weight-bold text">Documentation</h5>
-    <a href="path_to_documentation" target="_blank">
-      <i class="fas fa-book"></i> Technical Docs
-    </a>
-  </div>
-  
-  <div class="repo p-2">
-    <h5 class="font-weight-bold text">Live Demo</h5>
-    <a href="demo_url" target="_blank">
-      <i class="fas fa-play"></i> Try it out
-    </a>
-  </div>
-</div> -->
+</div>
 
 ## Project Demo
 
@@ -59,7 +45,7 @@ Developed a complete multiplayer action game "Crazy Arcade" on FPGA, integrating
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga_game/system_architecture.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/fpga_game/setup.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/fpga_game/4.png" class="img-fluid rounded z-depth-1" %}

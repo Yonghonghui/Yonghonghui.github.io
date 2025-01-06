@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>UIUC & ZJU</a>. BCI Researcher & Engineering Enthusiast.
+subtitle: <a href='#'>UIUC & ZJU</a>. Engineering Researcher & BCI Enthusiast.
 
 profile:
   align: right

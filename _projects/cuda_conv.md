@@ -5,11 +5,23 @@ description: Implemented and optimized convolutional neural networks using CUDA 
 # img: assets/img/projects/cuda.jpg
 importance: 1
 category: Hardware & Systems
+github: https://github.com/Yonghonghui/ECE408-Applied-Parallel-Programming
 ---
 
 ## Overview
 
 Designed and implemented a highly optimized CUDA-based convolutional neural network, focusing on the forward pass of convolutional layers for a modified LeNet-5 architecture. The project aimed to achieve maximum performance for deep learning tasks such as image classification and object detection.
+
+## Links
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2">
+    <h5 class="font-weight-bold text">GitHub Repository</h5>
+    <a href="https://github.com/Yonghonghui/ECE408-Applied-Parallel-Programming" target="_blank">
+      <i class="fab fa-github"></i> CUDA CNN Implementation
+    </a>
+  </div>
+</div>
 
 ## Technical Details
 

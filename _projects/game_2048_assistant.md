@@ -4,11 +4,23 @@ title: 2048 Game Assistant
 description: Developed an Android app that analyzes live 2048 game state and suggests optimal moves
 importance: 3
 category: Machine Learning
+github: https://github.com/Yonghonghui/CS411-Embedded-System
 ---
 
 ## Overview
 
 Created an intelligent assistant for the game 2048 that combines real-time image processing with AI decision-making to analyze the game state and recommend optimal moves.
+
+## Links
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2">
+    <h5 class="font-weight-bold text">GitHub Repository</h5>
+    <a href="https://github.com/Yonghonghui/CS411-Embedded-System" target="_blank">
+      <i class="fab fa-github"></i> 2048 Game Assistant
+    </a>
+  </div>
+</div>
 
 ## Technical Details
 
