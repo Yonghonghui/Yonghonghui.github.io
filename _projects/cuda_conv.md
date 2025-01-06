@@ -66,4 +66,4 @@ Designed and implemented a highly optimized CUDA-based convolutional neural netw
 - Nsight Profiling Tools
 
 ## Project Advisor
-Prof. Yao Chen, Zhejiang University 
+Prof. Volodymyr Kindratenko, UIUC
