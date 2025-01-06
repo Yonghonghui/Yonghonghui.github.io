@@ -3,7 +3,7 @@ layout: page
 title: Over-the-Air-Computation Based Federated Learning
 description: Established and simulated Over-the-Air computation based federated learning model using MATLAB/Simulink
 importance: 1
-category: Machine Learning & Communications
+category: Machine Learning
 ---
 
 ## Overview

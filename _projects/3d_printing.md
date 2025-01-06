@@ -3,7 +3,7 @@ layout: page
 title: Hook&Hair Structure 3D-Printing based on Path Control
 description: Designed and implemented 3D-printed hook structures with path control optimization for various surface attachments
 importance: 2
-category: Design & Manufacturing
+category: Hardware & Systems
 ---
 
 ## Overview
