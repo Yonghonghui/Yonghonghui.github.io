@@ -400,9 +400,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-advanced-3d-amp-4d-printing",
-          title: 'Advanced 3D &amp;amp; 4D Printing',
-          description: "Developed path-controlled 3D printing techniques for hook and hair structures with 4D printing exploration",
+          section: "News",},{id: "projects-hook-amp-hair-structure-3d-printing-based-on-path-control",
+          title: 'Hook&amp;amp;Hair Structure 3D-Printing based on Path Control',
+          description: "Designed and implemented 3D-printed hook structures with path control optimization for various surface attachments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3d_printing/";
             },},{id: "projects-cuda-optimized-cnn",
@@ -410,9 +410,9 @@ ninja.data = [{
           description: "Implemented and optimized convolutional neural networks using CUDA for high-performance computing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cuda_conv/";
-            },},{id: "projects-over-the-air-federated-learning",
-          title: 'Over-the-Air Federated Learning',
-          description: "Developed an innovative over-the-air computation based federated learning system",
+            },},{id: "projects-over-the-air-computation-based-federated-learning",
+          title: 'Over-the-Air-Computation Based Federated Learning',
+          description: "Established and simulated Over-the-Air computation based federated learning model using MATLAB/Simulink",
           section: "Projects",handler: () => {
               window.location.href = "/projects/federated_learning/";
             },},{id: "projects-fpga-multiplayer-game",
