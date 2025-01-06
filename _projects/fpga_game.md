@@ -114,5 +114,5 @@ Prof. Zuofu Cheng, UIUC
     </div>
 </div>
 <div class="caption">
-    Demo of our ECE385 Final Porject -- "Crazy Arcade"
+    Demo of our ECE385 Final Porject -- "Crazy Arcade" (Right click on the cover above to view the video)
 </div> 

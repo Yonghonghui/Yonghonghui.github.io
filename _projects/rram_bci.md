@@ -12,47 +12,52 @@ category: BCI & Neural Computing
 
 Developed a RRAM-based heterogeneous processing system for multimodal brain-computer interfaces, focusing on P300 signal recognition and integration with other BCI modalities.
 
-<!-- ## Links
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  <div class="repo p-2">
-    <h5 class="font-weight-bold text">GitHub Repository</h5>
-    <a href="https://github.com/YourUsername/rram-bci" target="_blank">
-      <i class="fab fa-github"></i> RRAM-based Multimodal BCI
-    </a> -->
-  <!-- </div>
-  <div class="repo p-2">
-    <h5 class="font-weight-bold text">Project Documentation</h5>
-    <a href="path_to_documentation" target="_blank">
-      <i class="fas fa-book"></i> Technical Documentation
-    </a>
-  </div>
-</div> -->
-
-
-<!-- ## Project Demo
+## P300 Signal Characteristics
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/rram_bci/gameplay.jpg" title="Gameplay Screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/rram_bci/1.png" title="P300 Signal" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Screenshot of the Crazy Arcade game running on FPGA, showing the multiplayer interface and bomb mechanics.
+    Typical P300 ERP waveform showing the characteristic positive deflection approximately 300ms after stimulus onset.
 </div>
+
+## EEGNet Architecture
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/rram_bci/2.png" title="Original EEGNet" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Original EEGNet architecture showing the temporal and spatial convolution layers for EEG signal processing.
+</div>
+
+## RRAM-based Classification
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/rram_bci/4.png" title="RRAM Classification" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    RRAM-based P300 signal classification paradigm showing the compute-in-memory approach for efficient neural processing.
+</div>
+
+## Modified Architecture
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga_game/system_architecture.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/rram_bci/3.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/fpga_game/fpga_setup.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/rram_bci/5.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: System architecture diagram showing the integration of various components. Right: Physical FPGA setup with VGA display and keyboard input.
-</div> -->
-
+    Left: Modified EEGNet architecture optimized for P300 signal processing. Right: Multimodal EEG signal classification system combining P300 and MI signals using RRAM chips.
+</div>
 
 ## Technical Details
 

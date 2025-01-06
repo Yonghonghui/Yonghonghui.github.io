@@ -4,7 +4,7 @@ title: 2048 Game Assistant
 description: Developed an Android app that analyzes live 2048 game state and suggests optimal moves
 importance: 3
 category: Machine Learning
-github: https://github.com/Yonghonghui/CS411-Embedded-System
+github: https://github.com/Yonghonghui/ECE420-Final-Project
 ---
 
 ## Overview
@@ -16,10 +16,21 @@ Created an intelligent assistant for the game 2048 that combines real-time image
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   <div class="repo p-2">
     <h5 class="font-weight-bold text">GitHub Repository</h5>
-    <a href="https://github.com/Yonghonghui/CS411-Embedded-System" target="_blank">
+    <a href="https://github.com/Yonghonghui/ECE420-Final-Project" target="_blank">
       <i class="fab fa-github"></i> 2048 Game Assistant
     </a>
   </div>
+</div>
+
+## System Architecture
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/game_2048/1.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    System architecture diagram showing the image processing pipeline and AI decision-making process.
 </div>
 
 ## Technical Details
@@ -59,3 +70,13 @@ Created an intelligent assistant for the game 2048 that combines real-time image
 
 ## Project Advisor
 Prof. Thomas Moon, UIUC 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/projects/game_2048/1.mp4" 
+                              class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Demo of our ECE420 Final Porject -- "Game 2048 Cheat Machine" (Right click on the cover above to view the video)
+</div> 

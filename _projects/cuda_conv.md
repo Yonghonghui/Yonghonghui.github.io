@@ -5,7 +5,7 @@ description: Implemented and optimized convolutional neural networks using CUDA 
 # img: assets/img/projects/cuda.jpg
 importance: 1
 category: Hardware & Systems
-github: https://github.com/Yonghonghui/ECE408-Applied-Parallel-Programming
+github: https://github.com/illinois-cs-coursework/fa24_ece408_yc47/tree/9759cfd8a93af4c5496e6d7133dc5f4a1deec6ff/Project
 ---
 
 ## Overview
@@ -17,10 +17,21 @@ Designed and implemented a highly optimized CUDA-based convolutional neural netw
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   <div class="repo p-2">
     <h5 class="font-weight-bold text">GitHub Repository</h5>
-    <a href="https://github.com/Yonghonghui/ECE408-Applied-Parallel-Programming" target="_blank">
+    <a href="https://github.com/illinois-cs-coursework/fa24_ece408_yc47/tree/9759cfd8a93af4c5496e6d7133dc5f4a1deec6ff/Project" target="_blank">
       <i class="fab fa-github"></i> CUDA CNN Implementation
     </a>
   </div>
+</div>
+
+## Implementation Architecture
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/cuda_cnn/1.png" title="CUDA Implementation Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Architecture diagram showing the CUDA-based CNN implementation with memory management and computation optimization.
 </div>
 
 ## Technical Details
