@@ -425,9 +425,9 @@ ninja.data = [{
           description: "Developed an Android app that analyzes live 2048 game state and suggests optimal moves",
           section: "Projects",handler: () => {
               window.location.href = "/projects/game_2048_assistant/";
-            },},{id: "projects-neuron-circuit-simulation",
-          title: 'Neuron Circuit Simulation',
-          description: "Designed and simulated electronic circuits based on the Hodgkin-Huxley neuron model",
+            },},{id: "projects-simulating-neuron-circuit-design",
+          title: 'Simulating Neuron Circuit Design',
+          description: "Designed and simulated a circuit to model signal transmission along three neurons",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neuron_circuit/";
             },},{id: "projects-iot-private-chatbot",
