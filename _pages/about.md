@@ -6,7 +6,7 @@ subtitle: <a href='#'>UIUC & ZJU</a>. Engineering Researcher & BCI Enthusiast.
 
 profile:
   align: right
-  image: my2.jpg    # 你的照片
+  image: my3.jpg    # 你的照片
   image_circular: false   # 是否使用圆形照片
   more_info: >
     <p>🎓 UIUC & ZJU</p>
