@@ -440,6 +440,11 @@ ninja.data = [{
           description: "Developed heterogeneous processing system for multimodal brain-computer interfaces using RRAM technology",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rram_bci/";
+            },},{id: "projects-four-axis-vacuum-stage-for-advanced-nano-manufacturing",
+          title: 'Four‑Axis Vacuum Stage for Advanced Nano‑Manufacturing',
+          description: "A four‑degree‑of‑freedom robotic vacuum stage for uniform 3D nanocoating of irregular objects, designed to operate inside a magnetron sputtering chamber with high precision and reliability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/senior_design/";
             },},{
         id: 'social-email',
         title: 'email',
