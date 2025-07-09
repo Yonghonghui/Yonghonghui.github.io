@@ -13,6 +13,10 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master of Science in Electrical and Computer Engineering
+      institution: The University of California, Los Angeles (UCLA), Los Angeles, US
+      year: "2025.09 - "
+
     - title: Bachelor of Science in Electrical Engineering
       institution: University of Illinois Urbana-Champaign, Urbana, US
       year: "2021.09 - 2025.06"
@@ -24,6 +28,23 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: Four‑Axis Vacuum Stage for Advanced Nano‑Manufacturing
+      institution: Senior Design (Advisor-- Prof. Oleskiy Penkov)
+      year: February 2025 - May 2025
+      keywords: STM32, RS‑485, Stepper Motor Control, PCB Design, HMI, FSM, C/C++
+      description:
+      - "Control System Design: Engineered an STM32‑based control system for a 4‑DOF robotic arm, using the RS‑485 protocol for robust communication with four stepper motor drivers. Developed control logic for precise multi‑axis motion and implemented a Finite State Machine (FSM) to automate complex coating sequences."
+      - "Custom PCB Development: Independently designed and validated a custom PCB to integrate power distribution (24 V) and the RS‑485 communication bus. The design minimized signal interference and voltage drop, ensuring system reliability in a high‑vacuum environment."
+      - "HMI & User Interface: Created an intuitive HMI using a TFT touchscreen and physical buttons. The interface provides real‑time monitoring of motor status (speed, position) and allows one‑touch execution of preset programs and emergency stops."
+    - title: Scalable EEG Signal Classification via Federated Learning
+      institution: Senior Thesis (Advisor-- Prof. Howard Yang)
+      year: February 2025 - May 2025
+      keywords: TensorFlow, Federated Learning, Personalized FL (pFedMe), EEG, Seizure Prediction
+      description:
+      - "Designed and implemented a privacy‑preserving pipeline for seizure prediction, processing EEG signals into Pearson Correlation Coefficient (PCC) matrices and training a CNN classifier using four distinct paradigms: Local, Centralized, FedAvg, and pFedMe."
+      - "Demonstrated that standard FedAvg underperforms due to client data heterogeneity and severe class imbalance, while personalized pFedMe significantly improves average sensitivity and F1‑scores by adapting to unique patient data."
+      - "Conducted a detailed hyperparameter analysis of the pFedMe personalization weight (λ), revealing that smaller λ values are critical for minority‑class detection (sensitivity), whereas larger values force adherence to a globally biased model, collapsing performance."
+
     - title: Optimized Convolutional Layer Implementation Using CUDA
       institution: Course Project (Advisor-- Prof. Volodymyr Kindratenko)
       year: October 2024 - December 2024

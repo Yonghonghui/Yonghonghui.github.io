@@ -65,7 +65,7 @@ Designed and implemented an electronic circuit to simulate the signal transmissi
 - Neural Modeling
 
 ## Project Advisor
-Prof. [Advisor Name] 
+Prof. Jont Allen, UIUC  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

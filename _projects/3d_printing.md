@@ -105,7 +105,7 @@ Prof. Guanyun Wang, Zhejiang University
     </div>
 </div>
 <div class="caption">
-    Demonstration of 3D printed hooks attached on planar surfaces, showing the attachment strength and durability.
+    Demonstration of 3D printed hooks attached on planar surfaces, showing the attachment strength and durability(right click to open video in new tab).
 </div>
 
 ### Spherical Surface Applications
@@ -116,12 +116,12 @@ Prof. Guanyun Wang, Zhejiang University
                               class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/projects/3d_hook/ball_hook2.mp4" 
+        {% include video.liquid path="assets/video/projects/3d_hook/ball_hook_2.mp4" 
                               class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Bottom view of 3D printing hooks on spherical surfaces. Right: Top view of the printing process.
+    Left: Bottom view of 3D printing hooks on spherical surfaces; Right: Top view of the printing process(right click to open video in new tab).
 </div>
 
 ### Toy Application Test
@@ -133,5 +133,5 @@ Prof. Guanyun Wang, Zhejiang University
     </div>
 </div>
 <div class="caption">
-    Testing the hook-mitten ball toy application, demonstrating practical usage and durability of the hook structures.
+    Testing the hook-mitten ball toy application, demonstrating practical usage and durability of the hook structures(right click to open video in new tab).
 </div> 
