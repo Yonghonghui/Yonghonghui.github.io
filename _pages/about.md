@@ -31,7 +31,7 @@ social: true  # 是否显示社交媒体链接
       </div>
       
       <div class="bio-text">
-        <p>Hello, I'm <strong>Yanghonghui Chen (Ryon)</strong>. I'm a passionate and curious neuroscience & engineering enthusiast with a deep interest in brain-computer interfaces (BCIs), neural computation, and artificial intelligence.</p>
+        <p>Hello, I'm <strong>Yanghonghui Chen (Ryan)</strong>. I'm a passionate and curious neuroscience & engineering enthusiast with a deep interest in brain-computer interfaces (BCIs), neural computation, and artificial intelligence.</p>
       </div>
     </div>
   </div>

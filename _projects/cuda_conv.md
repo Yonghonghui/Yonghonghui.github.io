@@ -4,7 +4,7 @@ title: CUDA Optimized CNN
 description: Implemented and optimized convolutional neural networks using CUDA for high-performance computing
 # img: assets/img/projects/cuda.jpg
 importance: 1
-category: Hardware & Systems
+category: Machine Learning & AI Research
 github: https://github.com/illinois-cs-coursework/fa24_ece408_yc47/tree/9759cfd8a93af4c5496e6d7133dc5f4a1deec6ff/Project
 ---
 

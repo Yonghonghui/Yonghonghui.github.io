@@ -3,7 +3,7 @@ layout: page
 title: Simulating Neuron Circuit Design
 description: Designed and simulated a circuit to model signal transmission along three neurons
 importance: 2
-category: Hardware & Systems
+category: Brain‑Computer Interfaces & Neural Modeling
 ---
 
 ## Overview

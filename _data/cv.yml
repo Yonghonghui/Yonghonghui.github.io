@@ -123,6 +123,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: "2025 Summer"
+      items:
+        - "Outstanding Graduate of Zhejiang University"
     - year: "2023 Fall"
       items:
         - "Dean's List (Top 20%) - UIUC"
@@ -146,6 +149,14 @@
         - "Signal Processing and Analysis"
         - "Neural Network Applications"
         - "Real-time BCI Systems"
+        - "Neuromorphic Computing / Chips"
+    - title: Artificial Intelligence
+      items:
+        - "Deep Learning and Neural Networks"
+        - "Federated Learning and Privacy‑Preserving ML"
+        - "Reinforcement Learning and Control"
+        - "Computer Vision and Image Processing"
+        - "Explainable AI and Model Interpretability"
 
 - title: Other Interests
   type: list

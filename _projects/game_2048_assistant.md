@@ -3,7 +3,7 @@ layout: page
 title: 2048 Game Assistant
 description: Developed an Android app that analyzes live 2048 game state and suggests optimal moves
 importance: 3
-category: Machine Learning
+category: Software & Application Prototypes
 github: https://github.com/Yonghonghui/ECE420-Final-Project
 ---
 
