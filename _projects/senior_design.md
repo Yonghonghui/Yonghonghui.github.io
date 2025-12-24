@@ -3,7 +3,7 @@ layout: page
 title: Four‑Axis Vacuum Stage for Advanced Nano‑Manufacturing
 description: A four‑degree‑of‑freedom robotic vacuum stage for uniform 3D nanocoating of irregular objects, designed to operate inside a magnetron sputtering chamber with high precision and reliability.
 img: assets/img/projects/senior_design/overview.png
-importance: 2
+importance: 1
 category: Embedded & Hardware Systems
 github: https://github.com/Yonghonghui/Four-Axis-Vacuum-Stage
 ---

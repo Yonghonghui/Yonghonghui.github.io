@@ -5,7 +5,7 @@ permalink: /projects/
 description: A showcase of my research projects and technical work. 🔬
 nav: true
 nav_order: 3
-display_categories: [Brain‑Computer Interfaces & Neural Modeling, Embedded & Hardware Systems, Machine Learning & AI Research, Software & Application Prototypes]
+display_categories: [Analog/Digital/Mixed Integrated Circuit Design, Brain‑Computer Interfaces & Neural Modeling, Embedded & Hardware Systems, Machine Learning & AI Research, Software & Application Prototypes]
 horizontal: false
 ---
 

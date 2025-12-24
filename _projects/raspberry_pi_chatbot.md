@@ -2,7 +2,7 @@
 layout: page
 title: IoT Private Chatbot
 description: Developed a Raspberry Pi based IoT system as a private chatbot with face and speaker recognition
-importance: 2
+importance: 3
 category: Embedded & Hardware Systems
 github: https://github.com/Yonghonghui/ECE479-raspberry-pi4
 ---
