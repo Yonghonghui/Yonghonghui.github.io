@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -410,6 +410,11 @@ ninja.data = [{
           description: "Implemented and optimized convolutional neural networks using CUDA for high-performance computing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cuda_conv/";
+            },},{id: "projects-hardware-realization-of-a-mash-111-delta-sigma-modulator",
+          title: 'Hardware Realization of a MASH-111 $\Delta\Sigma$ Modulator',
+          description: "High-speed digital Delta-Sigma modulator design in TSMC 16nm FinFET technology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ece216/";
             },},{id: "projects-over-the-air-computation-based-federated-learning",
           title: 'Over-the-Air-Computation Based Federated Learning',
           description: "Established and simulated Over-the-Air computation based federated learning model using MATLAB/Simulink",
