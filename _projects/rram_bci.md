@@ -3,7 +3,7 @@ layout: page
 title: RRAM-based Multimodal BCI
 description: Developed heterogeneous processing system for multimodal brain-computer interfaces using RRAM technology
 # img: assets/img/projects/bci.jpg
-importance: 1
+importance: 2
 category: Brain‑Computer Interfaces & Neural Modeling
 # github: https://github.com/YourUsername/rram-bci
 ---
