@@ -408,9 +408,9 @@ ninja.data = [{
           description: "High-speed digital Delta-Sigma modulator design in TSMC 16nm FinFET technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ece216/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-neural-speech-decoding-brain-to-text-system",
+          title: 'Neural Speech Decoding:Brain-to-Text System',
+          description: "Real-time phoneme prediction from intracranial neural signals achieving 19.59% PER using optimized LSTM architectures.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ece243/";
             },},{id: "projects-over-the-air-computation-based-federated-learning",
