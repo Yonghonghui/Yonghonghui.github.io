@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "My curriculum vitae.",
@@ -415,6 +408,11 @@ ninja.data = [{
           description: "High-speed digital Delta-Sigma modulator design in TSMC 16nm FinFET technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ece216/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ece243/";
             },},{id: "projects-over-the-air-computation-based-federated-learning",
           title: 'Over-the-Air-Computation Based Federated Learning',
           description: "Established and simulated Over-the-Air computation based federated learning model using MATLAB/Simulink",
