@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "My curriculum vitae.",
           section: "Navigation",
           handler: () => {
@@ -453,7 +453,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%63%34%37@%69%6C%6C%69%6E%6F%69%73.%65%64%75", "_blank");
+          window.open("mailto:%68%6F%6E%67%68%75%69%32%35@%67.%75%63%6C%61.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
@@ -467,7 +467,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Yanghonghui Chen", "_blank");
+          window.open("https://www.linkedin.com/in/yanghonghui chen", "_blank");
         },
       },{
         id: 'social-rss',
