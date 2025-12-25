@@ -411,7 +411,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/cuda_conv/";
             },},{id: "projects-hardware-realization-of-a-mash-111-delta-sigma-modulator",
-          title: 'Hardware Realization of a MASH-111 $\Delta\Sigma$ Modulator',
+          title: 'Hardware Realization of a MASH-111 Delta-Sigma Modulator',
           description: "High-speed digital Delta-Sigma modulator design in TSMC 16nm FinFET technology.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ece216/";
