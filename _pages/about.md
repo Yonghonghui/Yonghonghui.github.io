@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: BS <a href='#'>UIUC & ZJU</a> | MS <a href='#'>UCLA</a>. Engineering Researcher & Tech Enthusiast.
 
