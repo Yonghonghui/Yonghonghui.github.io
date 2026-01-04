@@ -4,7 +4,7 @@ title: FPGA Multiplayer Game
 description: Implemented a multiplayer action game 'Crazy Arcade' on FPGA using SystemVerilog
 # img: assets/img/projects/fpga_game/thumbnail.jpg
 importance: 2
-category: Embedded & Hardware Systems
+category: Analog/Digital/Mixed Integrated Circuit Design
 github: https://github.com/Yonghonghui/ECE-385---Digital-Systems-Laboratory
 ---
 
