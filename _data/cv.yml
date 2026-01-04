@@ -28,22 +28,40 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: Four‑Axis Vacuum Stage for Advanced Nano‑Manufacturing
+    - title: Neural Speech Decoding System (Brain-to-Text)
+      institution: Course Project (Advisor-- Prof. Jonathan Kao)
+      year: October 2025 - December 2025
+      keywords: PyTorch, LSTM/GRU, BCI, Real-time Decoding, CTC Loss, Google Cloud Platform (GCP)
+      description:
+      - "Engineered a real-time, uni-directional LSTM decoder with a specialized non-linear post-stack (Linear-LayerNorm-GELU) to capture long-range temporal dependencies. Enforced strict causal constraints to ensure viability for live Brain-Computer Interface applications, reducing error rates from 23.6% to 19.59%."
+      - "Developed a robust training pipeline using Focal CTC Loss to address severe phoneme class imbalance in intracranial neural data. Stabilized convergence on Google Cloud (Tesla T4) through Gradient Clipping, AdamW optimization, and a sequential learning rate scheduler."
+
+    - title: High-Speed MASH-1-1-1 Delta-Sigma Modulator Design in 16nm FinFET
+      institution: Course Project (Advisor-- Prof. Hooman Darabi)
+      year: October 2025 - December 2025
+      keywords: Verilog, ASIC Design Flow, Logic Synthesis, Static Timing Analysis (STA), Synopsys DC/PrimeTime, TCL
+      description:
+      - "Engineered a high-speed, pipelined MASH-1-1-1 digital modulator targeting 500 MHz clock frequency. Implemented robust noise-shaping logic using 5-bit signed arithmetic and bit-extension techniques to handle dynamic ranges without overflow."
+      - "Synthesized the design using TSMC 16nm FinFET technology with Synopsys Design Compiler. Achieved timing closure across Multi-Mode Multi-Corner (MMMC) conditions by developing custom TCL scripts to automatically resolve critical hold-time violations."
+      - "Conducted gate-level simulations in ModelSim to generate switching activity (VCD) files. Performed high-precision sign-off power analysis using Synopsys PrimeTime PX, achieving a finalized power consumption of 0.178 mW."
+
+    - title: Four-Axis Vacuum Stage for Advanced Nano-Manufacturing
       institution: Senior Design (Advisor-- Prof. Oleskiy Penkov)
       year: February 2025 - May 2025
-      keywords: STM32, RS‑485, Stepper Motor Control, PCB Design, HMI, FSM, C/C++
+      keywords: STM32, RS-485, Stepper Motor Control, PCB Design, HMI, FSM, C/C++
       description:
-      - "Control System Design: Engineered an STM32‑based control system for a 4‑DOF robotic arm, using the RS‑485 protocol for robust communication with four stepper motor drivers. Developed control logic for precise multi‑axis motion and implemented a Finite State Machine (FSM) to automate complex coating sequences."
-      - "Custom PCB Development: Independently designed and validated a custom PCB to integrate power distribution (24 V) and the RS‑485 communication bus. The design minimized signal interference and voltage drop, ensuring system reliability in a high‑vacuum environment."
-      - "HMI & User Interface: Created an intuitive HMI using a TFT touchscreen and physical buttons. The interface provides real‑time monitoring of motor status (speed, position) and allows one‑touch execution of preset programs and emergency stops."
+      - "Control System Design: Engineered an STM32-based control system for a 4-DOF robotic arm, using the RS-485 protocol for robust communication with four stepper motor drivers. Developed control logic for precise multi-axis motion and implemented a Finite State Machine (FSM) to automate complex coating sequences."
+      - "Custom PCB Development: Independently designed and validated a custom PCB to integrate power distribution (24 V) and the RS-485 communication bus. The design minimized signal interference and voltage drop, ensuring system reliability in a high-vacuum environment."
+      - "HMI & User Interface: Created an intuitive HMI using a TFT touchscreen and physical buttons. The interface provides real-time monitoring of motor status (speed, position) and allows one-touch execution of preset programs and emergency stops."
+
     - title: Scalable EEG Signal Classification via Federated Learning
       institution: Senior Thesis (Advisor-- Prof. Howard Yang)
       year: February 2025 - May 2025
       keywords: TensorFlow, Federated Learning, Personalized FL (pFedMe), EEG, Seizure Prediction
       description:
-      - "Designed and implemented a privacy‑preserving pipeline for seizure prediction, processing EEG signals into Pearson Correlation Coefficient (PCC) matrices and training a CNN classifier using four distinct paradigms: Local, Centralized, FedAvg, and pFedMe."
-      - "Demonstrated that standard FedAvg underperforms due to client data heterogeneity and severe class imbalance, while personalized pFedMe significantly improves average sensitivity and F1‑scores by adapting to unique patient data."
-      - "Conducted a detailed hyperparameter analysis of the pFedMe personalization weight (λ), revealing that smaller λ values are critical for minority‑class detection (sensitivity), whereas larger values force adherence to a globally biased model, collapsing performance."
+      - "Designed and implemented a privacy-preserving pipeline for seizure prediction, processing EEG signals into Pearson Correlation Coefficient (PCC) matrices and training a CNN classifier using four distinct paradigms: Local, Centralized, FedAvg, and pFedMe."
+      - "Demonstrated that standard FedAvg underperforms due to client data heterogeneity and severe class imbalance, while personalized pFedMe significantly improves average sensitivity and F1-scores by adapting to unique patient data."
+      - "Conducted a detailed hyperparameter analysis of the pFedMe personalization weight (λ), revealing that smaller λ values are critical for minority-class detection (sensitivity), whereas larger values force adherence to a globally biased model, collapsing performance."
 
     - title: Optimized Convolutional Layer Implementation Using CUDA
       institution: Course Project (Advisor-- Prof. Volodymyr Kindratenko)
@@ -153,7 +171,7 @@
     - title: Artificial Intelligence
       items:
         - "Deep Learning and Neural Networks"
-        - "Federated Learning and Privacy‑Preserving ML"
+        - "Federated Learning and Privacy-Preserving ML"
         - "Reinforcement Learning and Control"
         - "Computer Vision and Image Processing"
         - "Explainable AI and Model Interpretability"
