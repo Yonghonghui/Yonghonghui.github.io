@@ -2,13 +2,14 @@
 layout: about
 title: About
 permalink: /
-# 在这里添加了带颜色的超链接，style="color: inherit;" 可以让链接保持文字原本的颜色，不显得突兀
-subtitle: <b>MS ECE @ <a href="https://www.ucla.edu/" target="_blank" style="color: inherit; text-decoration: none;">UCLA</a></b> | <b>BS @ <a href="https://illinois.edu/" target="_blank" style="color: inherit; text-decoration: none;">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank" style="color: inherit; text-decoration: none;">ZJU</a></b> <br> ASIC Design · AI/ML · Brain-Computer Interfaces
+# ✅ 修复：subtitle 必须用单引号包裹，否则 style="color: ..." 会导致报错
+subtitle: '<b>MS ECE @ <a href="https://www.ucla.edu/" target="_blank" style="color: inherit; text-decoration: none;">UCLA</a></b> | <b>BS @ <a href="https://illinois.edu/" target="_blank" style="color: inherit; text-decoration: none;">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank" style="color: inherit; text-decoration: none;">ZJU</a></b> <br> ASIC Design · AI/ML · Brain-Computer Interfaces'
 
 profile:
   align: right
   image: my3.jpg
   image_circular: false
+  # ✅ 缩进对齐：确保下面的 HTML 代码比 more_info 多缩进 2 个空格
   more_info: >
     <p>🎓 MS: <a href="https://www.ucla.edu/" target="_blank">UCLA</a> (GPA 3.9/4.0)</p>
     <p>🎓 BS: <a href="https://illinois.edu/" target="_blank">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank">ZJU</a></p>
@@ -16,7 +17,7 @@ profile:
     <p>📧 <a href="mailto:honghui25@g.ucla.edu">honghui25@g.ucla.edu</a></p>
     <br>
     <div class="resume-download">
-      <a href="/assets/pdf/Resume-Yanghonghui Chen.pdf" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+      <a href="/assets/pdf/CV-Yanghonghui Chen.pdf" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
         📄 Download Resume
       </a>
     </div>
