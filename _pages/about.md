@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-# ✅ 修复：subtitle 必须用单引号包裹，否则 style="color: ..." 会导致报错
+
 subtitle: '<b>MS ECE @ <a href="https://www.ucla.edu/" target="_blank" style="color: inherit; text-decoration: none;">UCLA</a></b> | <b>BS @ <a href="https://illinois.edu/" target="_blank" style="color: inherit; text-decoration: none;">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank" style="color: inherit; text-decoration: none;">ZJU</a></b> <br> ASIC Design · AI/ML · Brain-Computer Interfaces'
 
 profile:
