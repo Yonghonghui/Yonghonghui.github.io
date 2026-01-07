@@ -403,6 +403,11 @@ ninja.data = [{
           description: "Implemented and optimized convolutional neural networks using CUDA for high-performance computing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cuda_conv/";
+            },},{id: "projects-high-precision-fully-differential-folded-cascode-op-amp",
+          title: 'High-Precision Fully-Differential Folded-Cascode Op-Amp',
+          description: "Low-power analog amplifier design in 180nm CMOS with continuous-time CMFB.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ece215a/";
             },},{id: "projects-hardware-realization-of-a-mash-111-delta-sigma-modulator",
           title: 'Hardware Realization of a MASH-111 Delta-Sigma Modulator',
           description: "High-speed digital Delta-Sigma modulator design in TSMC 16nm FinFET technology.",
