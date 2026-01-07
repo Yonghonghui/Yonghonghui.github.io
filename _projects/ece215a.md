@@ -87,28 +87,28 @@ Designed and optimized a fully-differential Folded-Cascode Operational Amplifier
 ## Technical Details
 
 - **Folded-Cascode Topology:**
-  <div class="row">
-      <div class="col-sm-8 mt-3 mt-md-0 mx-auto">
-          {% include figure.liquid path="assets/img/projects/opamp/topology_core.png" title="Core Topology" class="img-fluid rounded z-depth-1" %}
-      </div>
+<div class="row">
+  <div class="col-sm-8 mt-3 mt-md-0 mx-auto">
+    {% include figure.liquid path="assets/img/projects/opamp/topology_core.png" title="Core Topology" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="caption">
-      Figure 1: NMOS-input Folded-Cascode architecture selected for high-speed operation.
-  </div>
+</div>
+<div class="caption">
+  Figure 1: NMOS-input Folded-Cascode architecture selected for high-speed operation.
+</div>
   - Selected an NMOS-input folded-cascode architecture to maximize transconductance ($g_m$) and Gain-Bandwidth Product (GBW) for high-speed operation.
   - Allocated overdrive voltages ($V_{ov}$) meticulously to ensure all transistors remain in saturation while supporting a wide **1.6 $V_{pp}$ output swing**.
 
 - **Triode-Region CMFB:**
-  <div class="row">
-      <div class="col-sm-6 mt-3 mt-md-0 mx-auto">
-          {% include figure.liquid path="assets/img/projects/opamp/cmfb_circuit.png" title="CMFB Circuit" class="img-fluid rounded z-depth-1" %}
-      </div>
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0 mx-auto">
+    {% include figure.liquid path="assets/img/projects/opamp/cmfb_circuit.png" title="CMFB Circuit" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="caption">
-      Figure 2: Continuous-time CMFB utilizing triode-region transistors for zero static power.
-  </div>
-  - Implemented a continuous-time Common-Mode Feedback network using transistors in the triode region[cite: 64].
-  - **Advantage:** Eliminates the need for resistive dividers (saving area) and avoids consuming voltage headroom at the output nodes[cite: 70, 71].
+</div>
+<div class="caption">
+  Figure 2: Continuous-time CMFB utilizing triode-region transistors for zero static power.
+</div>
+  - Implemented a continuous-time Common-Mode Feedback network using transistors in the triode region.
+  - **Advantage:** Eliminates the need for resistive dividers (saving area) and avoids consuming voltage headroom at the output nodes.
 
 - **Settling Time Optimization:**
   - Identified a critical bottleneck where large CMFB devices introduced excessive parasitic capacitance at the output nodes.
