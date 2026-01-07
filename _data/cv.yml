@@ -28,6 +28,15 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: High-Precision Fully-Differential Folded-Cascode Op-Amp Design (180nm CMOS)
+      institution: Course Project (Advisor-- Prof. Behzad Razavi)
+      year: October 2025 - December 2025
+      keywords: Fully-Differential Folded-Cascode, Triode-Region CMFB, Low-Power Design, Cadence Virtuoso, 180nm CMOS
+      description:
+      - "Designed a high-precision, fully-differential folded-cascode op-amp in 180 nm CMOS with NMOS input pairs to maximize gm/BW; implemented a continuous-time CMFB using triode-region devices to preserve headroom and support 1.6 Vpp output swing."
+      - "Engineered a low-power design variant through rigorous power-speed trade-off analysis, achieving 2.21 mW total power (~78% reduction vs. high-speed baseline) while maintaining <1% gain error and 45 ns (99%) settling into a 2 pF load."
+      - "Resolved a critical settling bottleneck by identifying excessive CMFB-network capacitive loading; reduced triode device dimensions by 50% to cut parasitic capacitance—improving large-signal slewing and small-signal settling—and added CLM-compensation resistors in bias branches to ensure VDS-matched current mirrors."
+    
     - title: Neural Speech Decoding System (Brain-to-Text)
       institution: Course Project (Advisor-- Prof. Jonathan Kao)
       year: October 2025 - December 2025
@@ -162,19 +171,25 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Brain-computer Interface
+    - title: Brain-Computer Interfaces (BCI) & Neural Engineering
       items:
-        - "Signal Processing and Analysis"
-        - "Neural Network Applications"
-        - "Real-time BCI Systems"
-        - "Neuromorphic Computing / Chips"
-    - title: Artificial Intelligence
+        - "Neural Signal Processing & Decoding: Advanced feature extraction and sequence modeling (LSTM/GRU/Transformer) for real-time speech/motor decoding from EEG/iEEG."
+        - "Multimodal Sensor Fusion: Integrating heterogeneous data sources (e.g., bio-signals, eye-tracking) to enhance BCI robustness and information transfer rates."
+        - "Neuromorphic Computing & RRAM: Exploring compute-in-memory architectures and resistive memory (RRAM) for energy-efficient neural interfacing."
+        - "Closed-Loop BCI Systems: Designing low-latency, feedback-driven systems for therapeutic applications and neuro-rehabilitation."
+
+    - title: Integrated Circuits & VLSI Systems
       items:
-        - "Deep Learning and Neural Networks"
-        - "Federated Learning and Privacy-Preserving ML"
-        - "Reinforcement Learning and Control"
-        - "Computer Vision and Image Processing"
-        - "Explainable AI and Model Interpretability"
+        - "Mixed-Signal IC Design: High-precision Data Converters (Delta-Sigma ADCs), PLLs, and Clocking circuits for biomedical applications."
+        - "Hardware Accelerators for AI: ASIC implementation of machine learning algorithms, focusing on power-efficient inference logic in advanced FinFET nodes."
+        - "Design-Technology Co-Optimization (DTCO): Power-performance-area (PPA) trade-offs in nanometer CMOS processes (180nm to 16nm FinFET)."
+
+    - title: Artificial Intelligence & Efficient Computing
+      items:
+        - "Privacy-Preserving Machine Learning: Federated Learning (e.g., pFedMe) algorithms addressing data heterogeneity and class imbalance in distributed healthcare networks."
+        - "Edge AI & TinyML: Optimizing deep learning models via quantization, pruning, and hardware-aware training for deployment on resource-constrained embedded devices."
+        - "Computer Vision & Pattern Recognition: Real-time object detection and image reconstruction optimized for GPU (CUDA) and parallel processing architectures."
+        - "Explainable AI (XAI): Enhancing model interpretability in critical biomedical decision-making systems."
 
 - title: Other Interests
   type: list
