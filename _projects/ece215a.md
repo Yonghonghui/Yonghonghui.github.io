@@ -93,9 +93,9 @@ Designed and optimized a fully-differential Folded-Cascode Operational Amplifier
       </div>
   </div>
   <div class="caption">
-      Figure 1: NMOS-input Folded-Cascode architecture selected for high-speed operation[cite: 42].
+      Figure 1: NMOS-input Folded-Cascode architecture selected for high-speed operation.
   </div>
-  - Selected an NMOS-input folded-cascode architecture to maximize transconductance ($g_m$) and Gain-Bandwidth Product (GBW) for high-speed operation[cite: 43].
+  - Selected an NMOS-input folded-cascode architecture to maximize transconductance ($g_m$) and Gain-Bandwidth Product (GBW) for high-speed operation.
   - Allocated overdrive voltages ($V_{ov}$) meticulously to ensure all transistors remain in saturation while supporting a wide **1.6 $V_{pp}$ output swing**.
 
 - **Triode-Region CMFB:**

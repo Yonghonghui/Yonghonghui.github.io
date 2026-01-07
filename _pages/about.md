@@ -62,8 +62,8 @@ social: true
   <div class="col-sm-12">
     <table style="width:100%; border:none;">
       <tr>
-        <td style="width:30%; font-weight:bold; vertical-align:top;">Digital IC & FPGA</td>
-        <td>Verilog, SystemVerilog, Synopsys DC/PrimeTime, ASIC Flow, STA, Low Power Design, Xilinx Vivado</td>
+        <td style="width:30%; font-weight:bold; vertical-align:top;">Mixed-Signal & Digital IC</td>
+        <td>Cadence Virtuoso, Spectre, Verilog, SystemVerilog, Synopsys DC/PrimeTime, ASIC Flow, STA, Xilinx Vivado</td>
       </tr>
       <tr>
         <td style="font-weight:bold; vertical-align:top;">AI & Algorithms</td>
@@ -76,4 +76,3 @@ social: true
     </table>
   </div>
 </div>
-
