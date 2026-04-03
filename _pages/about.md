@@ -62,7 +62,7 @@ social: true
   <div class="col-sm-12">
     <table style="width:100%; border:none;">
       <tr>
-        <td style="width:30%; font-weight:bold; vertical-align:top;">Mixed-Signal & Digital IC</td>
+        <td style="width:30%; font-weight:bold; vertical-align:top;">Mixed-Signal Analog & Digital IC</td>
         <td>Cadence Virtuoso, Spectre, Verilog, SystemVerilog, Synopsys DC/PrimeTime, ASIC Flow, STA, Xilinx Vivado</td>
       </tr>
       <tr>
