@@ -9,7 +9,7 @@ category: Analog/Digital/Mixed Integrated Circuit Design
 
 ## Overview
 
-Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline transmitter using 180nm CMOS technology. The architecture integrates a high-performance **Type-II, 3rd-order PLL** providing a stable 2.5 GHz clock, an **8-to-1 serializer MUX tree**, and a differential line driver. Key design focuses included flicker noise mitigation in the LC-VCO, current matching in the charge pump, and achieving high energy efficiency (5.94 pJ/bit).
+Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline transmitter using 180nm CMOS technology. The architecture integrates a high-performance **Type-II, 3rd-order PLL** providing a stable 2.5 GHz clock, an **8-to-1 serializer MUX tree**, and a differential line driver. Key design focuses included flicker noise mitigation in the LC-VCO, current matching in the charge pump, and achieving high energy efficiency of **5.942 pJ/bit**.
 
 ## Links
 
@@ -26,11 +26,11 @@ Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/pll/system_schematic.png" title="Transmitter System Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/pll/system_schematic.png" title="PLL Blockwise Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Complete schematic of the 5 Gb/s transmitter, showing the PLL frequency synthesizer, 3-stage serializer tree, and differential output driver.
+    Complete schematic of PLL, featuring a fully integrated Type-II PLL (PFD, Charge Pump, 3rd-order Loop Filter, and LC-VCO) with a hybrid divider chain.
 </div>
 
 ## Performance Metrics
@@ -55,32 +55,32 @@ Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline t
                     <tr>
                         <td><strong>Data Rate</strong></td>
                         <td>5 Gb/s (NRZ)</td>
-                        <td>$\ge$ 5 Gb/s </td>
+                        <td>≥ 5 Gb/s</td>
                     </tr>
                     <tr>
                         <td><strong>Total Power</strong></td>
                         <td>29.71 mW</td>
-                        <td>-</td>
+                        <td>Measured</td>
                     </tr>
                     <tr>
                         <td><strong>Energy Efficiency</strong></td>
                         <td>5.942 pJ/bit</td>
-                        <td>Competitive </td>
+                        <td>Competitive</td>
                     </tr>
                     <tr>
                         <td><strong>RMS Jitter</strong></td>
                         <td>< 4 ps</td>
-                        <td>$\le$ 4 ps </td>
+                        <td>≤ 4 ps</td>
                     </tr>
                     <tr>
                         <td><strong>Reference Spur</strong></td>
                         <td>-56.82 dBc</td>
-                        <td>$\le$ -30 dBc </td>
+                        <td>≤ -30 dBc</td>
                     </tr>
                     <tr>
                         <td><strong>Phase Noise</strong></td>
                         <td>-131.39 dBc/Hz</td>
-                        <td>@ 10 MHz offset </td>
+                        <td>@ 10 MHz offset</td>
                     </tr>
                 </tbody>
             </table>
@@ -91,21 +91,20 @@ Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline t
 ## Technical Details
 
 - **Low-Noise LC-VCO Design:**
-  -  Implemented a cross-coupled NMOS topology with a **120 $\mu$m** width to specifically suppress **86% flicker noise** ($1/f$) contribution.
-  -  Optimized the LC tank with $L = 1$ nH ($Q=8$) and a combination of NMOS varactors and fixed capacitors to achieve a robust 2.5 GHz oscillation with precise tuning.
+  - Implemented a cross-coupled NMOS topology with a **120 µm** width to specifically suppress **86% flicker noise** ($1/f$) contribution.
+  - Optimized the LC tank with $L = 1$ nH ($Q=8$) and a combination of NMOS varactors and fixed capacitors to achieve a robust 2.5 GHz oscillation with precise tuning.
 
 - **Hybrid Divider & Level Shifter:**
-  -  Utilized a high-speed **CML divide-by-2 stage** for the 2.5 GHz VCO output to ensure stable loading and low switching noise.
-  -  Employed a **$C^2$MOS stage** for the second division to reduce power consumption while maintaining a 50% duty cycle.
-  -  A **self-biased inverter** with AC-coupling (200 fF) was designed to restore low-swing CML signals to rail-to-rail CMOS levels.
+  - Utilized a high-speed **CML divide-by-2 stage** for the 2.5 GHz VCO output and a **$C^2$MOS stage** for power-efficient intermediate division.
+  - A **self-biased inverter** with AC-coupling (200 fF) restores low-swing CML signals to rail-to-rail CMOS levels.
 
 - **Current-Steering Charge Pump & LPF:**
-  -  Designed a current-steering CP with matched PMOS/NMOS current mirrors to minimize charge injection and $V_{cont}$ ripple.
-  -  Integrated a **3rd-order Loop Filter** ($R_0 = 5$ k$\Omega$, $C_1 = 12.7$ pF, $C_0 = 1.3$ pF) to provide the necessary phase lead for stability and high-frequency spur attenuation.
+  - Designed a current-steering CP with matched current mirrors to minimize charge injection and $V_{cont}$ ripple.
+  - Integrated a **3rd-order Loop Filter** ($R_0 = 5$ kΩ, $C_1 = 12.7$ pF, $C_0 = 1.3$ pF) for stability and spur attenuation.
 
 - **Serializer & Differential Driver:**
-  -  Implemented an **8-to-1 multiplexer tree** using $C^2$MOS logic and retiming latches to reduce glitches at 5 Gb/s.
-  -  The final differential driver stage was optimized for an on-resistance of **55–58 $\Omega$**, ensuring impedance matching and a **1.06 V** differential output swing.
+  - Implemented an **8-to-1 serializer tree** using $C^2$MOS logic and retiming latches to ensure timing margin at 5 Gb/s.
+  - Optimized the driver for an on-resistance of **55–58 Ω** to maintain a **1.06 V** differential output swing across a 50 Ω load.
 
 ## Simulation Results
 
@@ -137,4 +136,4 @@ Designed and optimized a complete **5 Gb/s Non-Return-to-Zero (NRZ)** wireline t
 - **Methodology:** Frequency Synthesizer Design, Noise/Spur Optimization, High-Speed Link Budgeting
 
 ## Course
- UCLA ECE 215E -- Mixed-Signal IC Design (26Winter) -- Prof. Behzad Razavi 
+UCLA ECE 215E -- Mixed-Signal IC Design (26Winter) -- Prof. Behzad Razavi
