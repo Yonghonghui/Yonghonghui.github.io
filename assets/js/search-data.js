@@ -398,6 +398,11 @@ ninja.data = [{
           description: "Designed and implemented 3D-printed hook structures with path control optimization for various surface attachments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3d_printing/";
+            },},{id: "projects-5-gb-s-wireline-transmitter-with-low-jitter-pll",
+          title: '5 Gb/s Wireline Transmitter with Low-Jitter PLL',
+          description: "High-speed transmitter in 180nm CMOS featuring a 2.5 GHz LC-VCO and hybrid divider architecture.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PLL/";
             },},{id: "projects-cuda-optimized-cnn",
           title: 'CUDA Optimized CNN',
           description: "Implemented and optimized convolutional neural networks using CUDA for high-performance computing",
