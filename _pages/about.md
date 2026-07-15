@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 
-subtitle: '<b>MS ECE @ <a href="https://www.ucla.edu/" target="_blank" style="color: inherit; text-decoration: none;">UCLA</a></b> | <b>BS @ <a href="https://illinois.edu/" target="_blank" style="color: inherit; text-decoration: none;">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank" style="color: inherit; text-decoration: none;">ZJU</a></b> <br> ASIC Design · AI/ML · Brain-Computer Interfaces'
+subtitle: '<b>MS ECE @ <a href="https://www.ucla.edu/" target="_blank" style="color: inherit; text-decoration: none;">UCLA</a></b> | <b>BS @ <a href="https://illinois.edu/" target="_blank" style="color: inherit; text-decoration: none;">UIUC</a> & <a href="https://www.zju.edu.cn/english/" target="_blank" style="color: inherit; text-decoration: none;">ZJU</a></b> <br> Analog IC Design · AI/ML · Brain-Computer Interfaces'
 
 profile:
   align: right
@@ -35,10 +35,10 @@ social: true
     <div class="about-section">
       <div class="bio-text">
         <p>I am a Master's student in ECE at <strong><a href="https://www.ucla.edu/" target="_blank" style="color: inherit;">UCLA</a></strong>, specializing in the intersection of <strong>Hardware and AI</strong>. With a triple-degree background (<a href="https://www.ucla.edu/" target="_blank">UCLA</a>, <a href="https://illinois.edu/" target="_blank">UIUC</a>, <a href="https://www.zju.edu.cn/english/" target="_blank">ZJU</a>), I bridge the gap between efficient <strong>IC Design</strong> and advanced <strong>Machine Learning algorithms</strong>.</p>
-        <p>Currently open to <strong>Full-time / Internship</strong> opportunities in ASIC Design, AI Engineering, and Embedded Systems.</p>
+        <p>Currently open to <strong>Full-time / Internship</strong> opportunities in Analog IC Design, AI Engineering, and Embedded Systems.</p>
       </div>
 
-      <div style="margin: 25px 0; padding: 15px 20px; background-color: #f8f9fa; border-left: 5px solid #333; border-radius: 4px;">
+      <div style="margin: 25px 0; padding: 15px 20px; background-color: #f8f9fa; border-left: 5px solid #333; border-radius: 4px;
         <p style="font-family: Georgia, serif; font-style: italic; color: #555; line-height: 1.6; margin: 0;">
           "Empty your mind.<br>
           Be formless, shapeless — like water.<br>
